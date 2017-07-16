@@ -1,0 +1,21 @@
+{
+  "name": "angwethapp",
+  "description": "My angular weather application for FreeCodeCamp",
+  "main": "index.js",
+  "authors": [
+    "Uladzimir Hanchar"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "angularjs#^1.5.8",
+    "jquery": "^3.1.1"
+  }
+}

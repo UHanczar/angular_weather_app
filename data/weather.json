@@ -1,0 +1,43 @@
+{
+  "content": {
+    "clearSky": {
+      "imgD": "content/images/clear-day.png",
+      "imgN": "images/clear-night.png"
+    },
+    "fewClouds": {
+      "imgD": "images/few-clouds-day.png",
+      "imgN": "images/few-clouds-night.png"
+    },
+    "scatteredClouds": {
+      "imgD": "images/scattered-clouds.png",
+      "imgN": "images/scattered-clouds.png"
+    },
+    "brokenClouds": {
+      "imgD": "images/broken-clouds-day.png",
+      "imgN": "images/broken-clouds-night.png",
+      "imgV": "videos/03.BrokenClouds/brokenCloudsNight.jpg",
+      "mp4D": "videos/03.BrokenClouds/brokenCloudsDay.mp4"
+    },
+    "showerRain": {
+      "imgD": "images/shower-rain.png",
+      "imgN": "images/shower-rain.png"
+    },
+    "rain": {
+      "imgD": "images/rain-day.png",
+      "imgN": "images/rain-night.png"
+    },
+    "thunderStorm": {
+      "imgD": "images/thunderstorm-day.png",
+      "imgN": "images/thunderstorm-night.png"
+    },
+    "snow": {
+      "imgD": "images/snowing.png",
+      "imgN": "images/snowing.png"
+    },
+    "mist": {
+      "imgD": "images/mist.png",
+      "imgN": "images/mist.png"
+    }
+  }
+
+}

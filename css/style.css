@@ -1,0 +1,94 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #081d2f;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch; }
+  html .container, body .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100%; }
+    html .container h1, body .container h1 {
+      font-size: 4rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      justify-content: flex-start;
+      margin: 3rem 0 10px; }
+      @media (max-width: 48rem) {
+        html .container h1, body .container h1 {
+          font-size: 3rem; } }
+      @media (max-width: 30rem) {
+        html .container h1, body .container h1 {
+          font-size: 2rem; } }
+    html .container h2, body .container h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin: 0 0 2rem; }
+      @media (max-width: 48rem) {
+        html .container h2, body .container h2 {
+          font-size: 2rem; } }
+    html .container .weather-api, body .container .weather-api {
+      background-color: rgba(201, 225, 190, 0.2);
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      padding: 60px 0;
+      text-transform: capitalize; }
+      @media (max-width: 64rem) {
+        html .container .weather-api, body .container .weather-api {
+          width: 70%; } }
+      @media (max-width: 48rem) {
+        html .container .weather-api, body .container .weather-api {
+          width: 90%; } }
+    html .container div, body .container div {
+      font-size: 2.5rem; }
+      @media (max-width: 48rem) {
+        html .container div, body .container div {
+          font-size: 1.8rem; } }
+      @media (max-width: 30rem) {
+        html .container div, body .container div {
+          font-size: 1.4rem; } }
+    html .container .location-text, body .container .location-text {
+      margin-bottom: 1rem; }
+    html .container .current-temp, html .container .current-weather, body .container .current-temp, body .container .current-weather {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      html .container .current-temp .change-format, html .container .current-weather .change-format, body .container .current-temp .change-format, body .container .current-weather .change-format {
+        cursor: pointer;
+        margin-left: 10px;
+        text-transform: capitalize; }
+      html .container .current-temp .json-img, html .container .current-weather .json-img, body .container .current-temp .json-img, body .container .current-weather .json-img {
+        width: 128px;
+        height: auto;
+        margin-right: 20px; }
+        @media (max-width: 30rem) {
+          html .container .current-temp .json-img, html .container .current-weather .json-img, body .container .current-temp .json-img, body .container .current-weather .json-img {
+            margin-right: 0; } }
+    html .container footer.footer, body .container footer.footer {
+      background-color: transparent;
+      width: 100%;
+      height: 3rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      left: 0;
+      bottom: 0; }
+      html .container footer.footer P, body .container footer.footer P {
+        font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+<div id="location-text" class="location-text">{{data.city + ", " + data.country}}</div>
+
+<div class="current-temp">
+    <div id="temp-value"> {{ data.temp }} </div>
+    <div class="change-format" ng-click="changeUnitSymbol()">{{ data.unitSymbol }}</div>
+</div>
+
+<div class="current-weather">
+    <div id="weather-image" ><img class="json-img" ng-src="http://openweathermap.org/img/w/{{data.icon}}.png"></div>
+    <div id="weather-description">{{data.weatherDesc }}</div>
+</div>
+
+<div class="data">{{ data.time }}</div>
+
+<!--<div class="wind">-->
+    <!--<div id="wind-value">{{ data.weather.wind.speed + windSymbol }}</div>-->
+    <!--<div id="wind-direction">{{ data.weather.wind.deg }}</div>-->
+<!--</div>-->
+
+<!--<div id="hum-value">{{ data.weather.main.humidity + " %" }}</div>-->
+
+<!--http://openweathermap.org/img/w/{{data.weather.weather[0].icon}}.png-->
