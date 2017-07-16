@@ -4,11 +4,16 @@
   "description": "My angular weather application for FreeCodeCamp",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/babel-node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Uladzimir Hanchar",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "open": "0.0.5"
   }
 }
